@@ -23,7 +23,7 @@ Each row of the CSV file represents one video and contains three main pieces of 
 ## Approach
 
 We have used several models and used their accuracies to select the best model. 
-- Conv2D + LSTM
+- Conv2D + LSTM + GRU
   - used augmentations, achieved 85% accuracy.
 - Conv3D
   - used a batch size of 20, achieved 90% accuracy.
